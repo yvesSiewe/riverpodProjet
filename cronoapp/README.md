@@ -1,12 +1,18 @@
 # cronoapp
-
-A new Flutter project.
+creation de l'application crono
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+j'ai commencer par creer une architecture (MVVM)
+definition des classe:
+    - CronoModel
+    - CronoViewModel
+    - CronoView
 
-A few resources to get you started if this is your first Flutter project:
+## utilisation de Timer
+ dans le module dart:async
+ ce module m'a permis de creer une variable Timer et c'est grace a elle qu'on definis un timer qui 
+ augmente les seconde toute les 1 minute
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)

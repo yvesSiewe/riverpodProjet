@@ -18,7 +18,10 @@ class TodoView extends ConsumerWidget {
           children: [
             Row(
               children: [
-                TextFormField(),
+                SizedBox(
+                  width: 50,
+                  child: TextFormField()
+                ),
                 IconButton(
                   onPressed: (){}, 
                   icon: Icon(Icons.add)

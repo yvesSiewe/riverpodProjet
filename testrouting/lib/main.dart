@@ -49,7 +49,8 @@ class RouteGenerator{
               child: Text('Erreur'),
             ),
           );
-        });
+        }
+      );
     }
   }
 }
